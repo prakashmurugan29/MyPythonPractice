@@ -1,0 +1,8 @@
+solution:
+print("M.S Dhoni\nFather: Mr. Pan Singh\nMother: Mrs. Devki Devi\nSiblings: Narendra Singh and Jayanti Gupta")
+output:
+M.S Dhoni
+Father: Mr. Pan Singh
+Mother: Mrs. Devki Devi
+Siblings: Narendra Singh and Jayanti Gupta
+
