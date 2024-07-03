@@ -1,0 +1,60 @@
+Create a class named Player with the following member variables/attributes (Default access)
+
+Data Type                Variable Name
+
+String                       name
+
+String                       country
+
+String                       skill
+
+write a main function to test the above class.
+
+Input and Output Format:
+
+Refer sample input and output for formatting specifications.
+
+All text in bold corresponds to input and the rest corresponds to output.
+
+
+
+Sample Input and Output:
+
+Enter the player's name
+
+MS Dhoni
+
+Enter the country name
+
+India
+
+Enter the skill
+
+All Rounder
+
+
+
+Player Details:
+
+Player Name:MS Dhoni
+
+Country Name: India
+
+Skill: All Rounder
+
+solution:
+class Player:
+    name="";country="";skill="";
+    def __init__(self,name,country,skill):
+        self.name=name
+        self.country=country
+        self.skill=skill
+#main program
+name=input("Enter the player's name\n")
+country=input("Enter the country name\n")
+skill=input("Enter the skill\n")
+pl1=Player(name,country,skill)
+print("Player Details:")
+print(f"Player Name:{pl1.name}")
+print(f"Country Name:{pl1.country}")
+print(f"Skill:{pl1.skill}")
