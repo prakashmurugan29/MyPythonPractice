@@ -1,0 +1,45 @@
+It was in the 1997-98 season that Ranchi saw the rise of the Captain Cool in the Interschool Trophy between DAV Jawahar Vidhya Mandir and Kendriya School. It was in this match Dhoni convinced Banerjee to be the opener and justified it with a double century.
+
+Write a program to display the details of the Match with Team names, Scores of the Teams and Overs played.
+
+Input and Output Format:
+Refer sample input and output for formatting specifications.
+[All text in bold corresponds to input and the rest corresponds to output)
+
+Sample Input and Output:
+Team 1:
+Team name:
+DAV Jawahar Vidhya Mandir
+Score:
+150
+Overs played:
+20
+Team 2:
+Team name:
+Kendriya School
+Score:
+110
+Overs played:
+18
+Match Details:
+Team 1:
+Name: DAV Jawahar Vidhya Mandir
+Score: 150
+Overs played: 20
+Team 2:
+Name: Kendriya School
+Score: 110
+Overs played: 18
+solution:
+#write your code here
+x=input("Team 1:\nTeam name:\n")
+y=int(input("Score:\n"))
+z=int(input("Overs played:\n"))
+a=input("Team 2:\nTeam name:\n")
+b=int(input("Score:\n"))
+c=int(input("Overs played:\n"))
+print("Match Details:\n""Team 1:")
+print("Name:",x,"\nScore:",y,"\nOvers played:",z)
+print("Team 2:")
+print("Name:",a,"\nScore:",b,"\nOvers played:",c)
+
